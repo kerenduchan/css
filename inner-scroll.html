@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inner Scroll</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            overflow-y: hidden;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #app {
+            flex-grow: 1;
+            height: 100%;
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #main {
+            width: 90%;
+            height: 90%;
+            margin: 30px;
+            padding: 10px 20px;
+            background-color: white;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #main-title {
+            font-size: larger;
+        }
+
+        #main-description {
+            font-size: smaller;
+        }
+
+        .scrollable {
+            overflow-y: auto;
+            border: 1px solid lightgray;
+            padding: 10px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app">
+        <div id="main">
+            <div id="main-title">Inner Scroll</div>
+            <div id="main-description">See how only the inside scrolls and the rest fits to the screen size.</div>
+            <div class="scrollable">
+
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+                sdfsdf<br />
+            </div>
+            <div>footer</div>
+        </div>
+    </div>
+</body>
+
+</html>
